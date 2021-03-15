@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Links-->
+    <link rel="stylesheet" href="Css/styles.css">
+    <script src="https://kit.fontawesome.com/fb63670538.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-md">
+                <a href="#" class="navbar-brand">
+                    <span>ANGELTREKcorp</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNavAltMarkup" 
+                        aria-controls="navbarNavAltMarkup" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse container-fluid" id="navbarNavAltMarkup">
+                    
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                      <a class="nav-link" href="playstation.html">PlayStation</a>
+                      <a class="nav-link" href="xbox.html">Xbox</a>
+                      <a class="nav-link" href="nintendo.html">Nintendo</a>
+                      <a class="nav-link" href="pcgaming.html">Pc gaming</a>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false"
+                            id="dropdownMenuButton1">
+                            Contactos
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li>
+                                <a href="formulario.html" target="_blank" class="dropdown-item">Formulario</a>
+                            </li>
+                            <li><a href="" class="dropdown-item"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="" class="dropdown-item"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="" class="dropdown-item"><i class="fab fa-telegram-plane"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="user">
+                    <a href="about.html"><img src="https://lh3.googleusercontent.com/-k0j99FVVo5w/XzbuMr6f2QI/AAAAAAAAGpA/13MMXIh32c8vK_XJy-4n5Y-ZYwTHQh5uQCEwYBhgLKtMDAL1Ocqxgs5TaEJqu8qn6QWVJddy6C210smvKmPKvq9y9tayV-Qg-oS0YpJ4Jhr4qNqFBWCmnsypyA5AoiNoQRvLK_5c_0iEIPYN17kAD-QGXHM_cnwpaQEcZRsWHNRSrRjXsOxq3fM4M-xD16lYzXLOkPAUCmB0SRs0s-pDGSHebyvsxGXCFRrw8zCI-jAxj3JmzU9pkhnIxTNAtYW2qe1BVI_WvRkKLvAKdtG68hSHxPX0PfcVoYGKrNkBczMh_Gp_c8X6Ip64JbPOX3Ln_kboOcksZnej8MCarmW6Cicm6imB4kFdId8ZqgZfyTsi5XHz3OuNnsfgXrIEW3xHbZydb1yoHNq0MdKlu96M6_ThyNeQCra6MhNJk2CDIR7c7T1Y-jhGADAn16XNFcJ-bgADQbeGG9bAD8FJpazfq_bp1_wN4hNrJcAPqWhDIsCXEw1imIXzmgpbC1QAndyZwBVyvo-pZBYo__JNUevWG7C5jUP-RGWua69S96wUQpTc2i2HOEbFbF7IbhKxwxQ5jTzavNugjoUJEzYbdnzwEkuXpG8tY9P8Kx3nybO7eBgd7RyAzLbAuVlPN1cpyLeuPjQfYvxa3iJoKZOJoGWxUPRyHpUAw-YKvggY/w140-h140-p/2020-08-14.jpg"></a>
+                </div>
+        </div>
+    </nav>
+
+    <main id="MainContainer" class="container-xxl">
+
+        <div class="container form-container">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="massage">Mensaje:</label>
+                    <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+
+            </form>
+        </div>
+
+    </main>
+
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="Js/app.js"></script>
+
+</body>
+</html>
